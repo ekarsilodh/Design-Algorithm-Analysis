@@ -1,4 +1,3 @@
-//Find the minimum number of scalar multiplication needed for chain of matrix whose sequences are < 5, 10, 3, 12, 5, 50, 6 > using the dynamic programming technique.
 
 #include<stdio.h>
 #include<stdlib.h>
