@@ -2,7 +2,6 @@
 
 #include<stdio.h>
 #include<stdlib.h>
-#include<limits.h>
 
 
 void Winit(int n, int W[n][n]){
@@ -157,8 +156,6 @@ int main(){
 	int min_cost=calctsp(z,y,W,D);
 	printf("\nThe minimum cost is %d.", min_cost);
 	printf("\nThe optimal path is:\n");
-	showpath(min_cost,z,1,0,1,1,visited,path,W);
-	
-	
+	showpath(min_cost,z,1,0,1,1,visited,path,W);	
 	
 }
